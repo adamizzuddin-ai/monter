@@ -9,17 +9,17 @@
 </head>
 <body>
 
-    <div class="video-container">
-        <video autoplay muted loop playsinline>
-            <source src="{{ asset('videos/video.mp4') }}" type="video/mp4">
-        </video>
+<div class="video-container">
+    <video autoplay muted loop playsinline>
+        <source src="{{ asset('videos/video.mp4') }}" type="video/mp4">
+    </video>
 
-        <div class="overlay"></div>
+    <div class="overlay"></div>
 
-        <div class="bottom-button">
-            <a href="/shop" class="shop-btn">Shop Now</a>
-        </div>
+    <div class="bottom-button">
+        <a href="/shop" class="shop-btn">SHOP NOW</a>
     </div>
+</div>
 
 </body>
 </html>
