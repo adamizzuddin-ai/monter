@@ -7,7 +7,6 @@
 
 body, html {
     height: 100%;
-    overflow: hidden;
 }
 
 .video-container {
@@ -246,4 +245,66 @@ body {
 .shop-btn:hover {
     background: black;
     color: white;
+}
+
+.logo img {
+    height: 35px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Footer */
+.site-footer {
+    background: #111;
+    color: #fff;
+    padding: 60px 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.footer-column h3,
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer-column p {
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #777;
 }
